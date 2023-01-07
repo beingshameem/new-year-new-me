@@ -116,13 +116,17 @@ header{
     font-weight: 500;
 }
 
-/* Footer Banner Section Styles */
+/* Footer Banner Container Section Styles */
 
-.footer-banner{
+.footer-banner-container{
     background-image: url(/images/watch.png);
-    background-size: cover;
+    height: 30vh;
+    width:100%;
+    position:relative;
     background-repeat: no-repeat;
-    margin: 120px;
+    margin-bottom: 75px;
+    display: flex;
+    justify-content: left;
 }
 
 .footer-banner-title{
@@ -131,6 +135,13 @@ header{
     font-weight: 700;
 }
 
+.color-overlay{
+    background: linear-gradient(90deg, #F15B22 0%, rgba(241, 91, 34, 0) 100%), url(/images/gradient3.png);
+    height: 30vh;
+    width: 1024px;
+    opacity: 0.4;
+    position: absolute;
+}
 
 /* Footer section styles */
 
