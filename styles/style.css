@@ -20,7 +20,6 @@ header{
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
-    position: absolute;
 }
 
 .banner{
@@ -40,4 +39,37 @@ header{
     font-weight: 400;
     font-size: 16px;
     margin-bottom: 40px;
+}
+
+/* Styles for Previous Year Section */
+
+.past-section{
+    display: flex;
+}
+
+.section-left{
+    padding-left: 200px;
+    padding-top: 130px;
+}
+
+.section-right{
+    padding: 370px 350px 120px 170px;
+}
+
+.section-title{
+    color: #151414;
+    font-weight: 700;
+    font-size: 40px;
+    font-family: 'Work Sans';
+    margin-bottom: 30px;
+}
+
+.section-description{
+    color: #444343;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.section-description li{
+    list-style-type: decimal-leading-zero;
 }
