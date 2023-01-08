@@ -28,7 +28,7 @@
 /* Banner Section Styles */
 
 header{
-    background-image: url(/images/banner/banner1.png);
+    background-image: url(../images/banner/banner1.png);
     height: 100%;
     background-repeat: no-repeat;
     background-size: cover;
